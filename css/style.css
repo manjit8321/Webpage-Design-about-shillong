@@ -1,0 +1,116 @@
+body{
+	font-family: Arial;
+	margin:0;
+	padding:20px;
+	background-color: #f1f1f1;
+}
+*{
+	box-sizing: border-box;
+}
+.row:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+header{
+	background-color: lightblue;
+	padding:30px;
+}
+header h1{
+	text-align: center;
+	font-size:60px;
+	color:#000000;
+	margin:1.5 0px;
+}
+
+h2{
+	color:#000000;
+margin:1.5 0px;	
+}
+.left-column{
+float: left;
+width: 75%;	
+}
+
+.right-column{
+ width: 25%;
+ float: right;
+ padding-left:20px;
+}
+.card{
+	padding: 20px;
+	background-color: #ffffff;
+ margin-top:20px;
+}
+
+.card img{
+	width: 100%;
+}
+
+
+.right-column .card img{
+	margin-bottom: 10px;
+}
+
+
+footer{
+	background-color: #dddddd;
+	padding: 40px;
+	text-align: center;
+	margin-top: 20px;
+    
+}
+
+.container {   
+    width: 1400px;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+@media(max-width:800px){
+	.left-column,.right-column{
+    width: 100%;
+    padding: 0px;
+	}
+}
+
+.icon {
+    float: left;
+    background: url(../img/phn.png)center center no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-left: 2px;
+    background-size: 60px;
+    padding right: 5px;
+
+}
+
+form {
+    margin: 0;
+    text-align: center;
+    height: 50px
+}
+
+button {
+    color: white;
+    padding: 13px;
+    background-color: #2ca6b0;
+    border: 1px solid #aaccd9;
+    border-radius: 3px;
+}
+
+.terms {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.web {
+    width:42px;height:42px;
+    border: 1px solid #aaccd9;
+    border-radius: 3px;
+}
+
+.contact{float: right;
+text-decoration-color: white;
+    font-size: 25px;}
